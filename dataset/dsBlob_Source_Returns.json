@@ -1,0 +1,30 @@
+{
+	"name": "dsBlob_Source_Returns",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsBlobSuperstore",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Returns",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "P1-SuperStoreUS-2015.xlsx",
+				"container": "blobplm"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Order ID",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "dsBlob_Source_Users",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsBlobSuperstore",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Users",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "P1-SuperStoreUS-2015.xlsx",
+				"container": "blobplm"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Manager",
+				"type": "String"
+			}
+		]
+	}
+}
