@@ -1,0 +1,9 @@
+{
+	"name": "dfplmSuperstore",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4cc2dc60-9c59-4148-bc08-29af8417a6d6",
+		"tenantId": "07cc872f-b6e3-487f-834e-25eb4f34ddad"
+	}
+}
