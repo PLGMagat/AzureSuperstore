@@ -1,0 +1,15 @@
+{
+	"name": "dsCosmos_Dest_RegionCost",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsCosmosSuperstore",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "RegionCost"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "dsCosmos_Dest_Returns",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsCosmosSuperstore",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "Returns"
+		}
+	}
+}
